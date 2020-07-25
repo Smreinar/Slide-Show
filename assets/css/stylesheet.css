@@ -13,7 +13,7 @@
 }
 
 /* naxt and prev button styling */
-.prev, .next {
+.prevButton, .nextButton {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -30,18 +30,18 @@
 }
 
 /* next button style/position */
-.next {
+.nextButton {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
 /* mouse hover over next and prev */
-.prev:hover, .next:hover {
+.prevButton:hover, .nextButton:hover {
     background-color: whitesmoke;
 }
 
 /* Slide Text style */
-.numberText {
+.slideText {
     color: #f3f3f3;
     font-size: 15px;
     padding: 8px 12px;
