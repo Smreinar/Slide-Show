@@ -1,4 +1,8 @@
 * {box-sizing: border-box;}
+img {
+    vertical-align: middle;
+    height: 800px;
+}
 
 /* image's slide container */
 .slideShowContainer {
@@ -20,7 +24,7 @@
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: grey;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6 ease;
@@ -37,7 +41,7 @@
 
 /* mouse hover over next and prev */
 .prevButton:hover, .nextButton:hover {
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 /* Slide Text style */
